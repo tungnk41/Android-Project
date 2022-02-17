@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">OpenWeather</string>
+    <string name="api_key">3b4d3ad9dac72a8da6c42eb87d2aecb1</string>
+    <string name="str_fetching_weather">Fetching Weather...</string>
+    <string name="str_wrong_connection_long">Something went wrong \n Please check your connection.</string>
+    <string name="str_wrong_connection_short">Please check your connection.</string>
+    <string name="str_try_again">TRY AGAIN</string>
+
+    <string name="str_weather_feels_like_temperature">feels like</string>
+    <string name="str_weather_temperature_unit_c">\u2103"</string>
+    <string name="str_weather_temperature_unit_f">\u2109</string>
+    <string name="str_weather_detail_wind_speed">Wind:</string>
+    <string name="str_weather_detail_wind_speed_unit">m/s</string>
+    <string name="str_weather_detail_humidity">Humidity:</string>
+    <string name="str_weather_detail_humidity_unit">%</string>
+    <string name="str_weather_detail_clouds">Clouds:</string>
+    <string name="str_weather_detail_clouds_unit">%</string>
+    <string name="str_weather_detail_pressure">Pressure:</string>
+    <string name="str_weather_detail_pressure_unit">hPa</string>
+    <string name="str_weather_detail_sunrise">Sunrise:</string>
+    <string name="str_weather_detail_sunset">Sunset:</string>
+    <string name="str_weather_update_time">lastest update:</string>
+
+    <string name="str_option_menu_setting_title">Settings</string>
+
+    <string name="str_setting_category_unit">Units</string>
+    <string name="str_setting_category_service">Services</string>
+
+
+</resources>

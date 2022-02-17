@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory
+        android:title="@string/str_setting_category_unit">
+        <ListPreference
+            android:key="tempUnit"
+            android:defaultValue="0"
+            android:entries="@array/arrSettingUnit"
+            android:entryValues="@array/arrSettingUnitValue"
+            android:summary="%s"
+            android:title="Temperature" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/str_setting_category_service">
+        <SwitchPreferenceCompat
+            android:key="swtWeatherService"
+            android:title="Weather Service"
+            android:defaultValue="false"/>
+        <SwitchPreferenceCompat
+            android:key="swtAutoUpdateWeather"
+            android:title="Auto Update Weather"
+            android:defaultValue="false"
+            android:summary="Minimum interval is 30 minutes"/>
+        <com.example.openweather.View.Preference.TimePickerPreference
+            android:key="dgTimePicker"
+            android:dependency="swtAutoUpdateWeather"
+            android:title="Update Weather after"
+            android:summary="%s"
+            android:defaultValue="30"/>
+    </PreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>

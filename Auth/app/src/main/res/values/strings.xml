@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Auth</string>
+    <string name="facebook_app_id">1301547306917408</string>
+    <string name="fb_login_protocol_scheme">fb1301547306917408</string>
+    <string name="web_client_id">728761188496-r1fon9nt39n3bqk9pj20cbkj8haefous.apps.googleusercontent.com</string>
+
+</resources>

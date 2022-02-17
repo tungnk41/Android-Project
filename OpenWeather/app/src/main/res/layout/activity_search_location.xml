@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    tools:context=".View.SubActivity.SearchLocationActivity">
+
+    <SearchView
+        android:id="@+id/svSearchLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_view_background"
+        android:focusable="true"
+        android:iconifiedByDefault="false"
+        android:focusableInTouchMode="true"
+        android:queryHint="Search"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSearchLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

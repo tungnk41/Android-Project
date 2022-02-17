@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/fg_service_weather_style"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/fg_tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textSize="16sp"
+        android:text="..."/>
+
+    <TextView
+        android:id="@+id/fg_tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textSize="16sp"
+        android:text="..."/>
+
+    <ImageView
+        android:id="@+id/fg_imgWeatherIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/fg_tvWeatherCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="..."
+        android:textSize="16sp" />
+
+</LinearLayout>

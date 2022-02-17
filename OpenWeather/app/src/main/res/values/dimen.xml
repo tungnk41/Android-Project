@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coner_radius">20dp</dimen>
+    <dimen name="weather_detail_radius">5dp</dimen>
+    <dimen name="weather_detail_text_size">13sp</dimen>
+
+</resources>
